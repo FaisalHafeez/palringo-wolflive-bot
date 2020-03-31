@@ -1,0 +1,20 @@
+{
+  "name": "wolftest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.ts",
+  "scripts": {
+    "build-test": "webpack --progress --color --config ./webpack-test.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wolfapi-ts": "^1.1.6"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}

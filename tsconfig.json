@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "es6",
+      "DOM"
+    ],
+    "allowUnreachableCode": true,
+    "typeRoots": ["./node_modules/@types"],
+    "experimentalDecorators": true
+  },
+  "include": ["src"]
+}
